@@ -1,5 +1,7 @@
 <div align="center">
 
+![Animated NovaNest Banner](assets/novanest-animated-banner.svg)
+
 # NovaNest — Retell AI Topic 9
 ## Post-Call Analysis, Scoring & QA Dashboards
 
