@@ -1,0 +1,41 @@
+[
+  {
+    "headers": {},
+    "params": {},
+    "query": {},
+    "body": {
+      "event": "call_analyzed",
+      "call": {
+        "call_id": "test_call_topic9_001",
+        "call_status": "ended",
+        "start_timestamp": 1791790000000,
+        "end_timestamp": 1791790180000,
+        "duration_ms": 180000,
+        "recording_url": "https://example.com/recording.wav",
+        "call_analysis": {
+          "call_summary": "Buyer seeking a 3-bed home in Wicker Park, budget $500k-$600k, pre-approved, 30-day timeline. Agent captured all required fields and submitted a booking request.",
+          "user_sentiment": "Positive",
+          "call_successful": true,
+          "custom_analysis_data": {
+            "caller_first_name": "Test",
+            "caller_last_name": "Caller",
+            "caller_phone": "3125550101",
+            "caller_email": "test.caller@example.com",
+            "qualification_status": "Qualified",
+            "lead_score": 8,
+            "appointment_intent": "Strong",
+            "objection_raised": false,
+            "objection_type": "None",
+            "caller_sentiment": "Positive",
+            "required_fields_captured": false,
+            "agent_asked_all_questions": false,
+            "disqualification_applied": false,
+            "next_action": "Send Follow-Up Email",
+            "qa_flag": "Fail",
+            "qa_flag_reason": "Agent did not ask about financing status."
+          }
+        }
+      }
+    }
+  }
+]
